@@ -9,7 +9,9 @@ Proyecto de aprendizaje sobre detección de phishing.
 Soy estudiante de ingeniería informática. A la fecha de este proyecto,
 mis conocimientos de programación son básicos: fundamentos, nada más.
 
-No sé Python. No sé JavaScript. No sé entrenar modelos de ML.
+De Python, JavaScript y de entrenar modelos de ML solamente tengo los 
+conceptos básicos, aún estoy lejos de poder generar proyectos desde
+cero por mi propia cuenta.
 
 Este proyecto fue construido usando Claude (Anthropic) como herramienta
 principal. Claude propuso la arquitectura, escribió el código, diseñó
