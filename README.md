@@ -211,8 +211,7 @@ pueden sumar 270 puntos o más. El score final igual queda en 100.
 
 Eso es correcto. El sistema no busca que todo sume exactamente 100 —
 cada señal aporta su peso de forma independiente, y el resultado
-se capa al máximo. Es como un examen donde puedes ganar puntos extra:
-la nota igual queda en 7.
+se capa al máximo.
 
 El log técnico muestra todos los pesos individuales para que puedas
 entender exactamente qué activó cada señal, no para que sumen el total.
