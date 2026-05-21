@@ -11,9 +11,10 @@ La interfaz está pensada para personas con baja alfabetización digital: lengua
 ## Capturas
 
 <p align="center">
-  <img src="screenshots/inicio.png" width="220"/>
-  <img src="screenshots/critico.png" width="220"/>
-  <img src="screenshots/limpio.png" width="220"/>
+  <img src="screenshots/inicio.png" width="160"/>
+  <img src="screenshots/critico.png" width="160"/>
+  <img src="screenshots/limpio.png" width="160"/>
+  <img src="screenshots/analizado.png" width="160"/>
 </p>
 
 ---
