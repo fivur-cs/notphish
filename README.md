@@ -25,6 +25,17 @@ sobre cómo fue, porque creo que ese proceso también tiene valor.
 
 ---
 
+## Capturas
+
+<p align="center">
+  <img src="screenshots/inicio.png" width="200"/>
+  <img src="screenshots/critico.png" width="200"/>
+  <img src="screenshots/analizado.png" width="200"/>
+  <img src="screenshots/limpio.png" width="200"/>
+</p>
+
+---
+
 ## Por qué existe
 
 Empecé por una pregunta simple:
@@ -59,17 +70,6 @@ y qué hacer.
 - Muestra un puntaje de 0 a 100 con explicación en lenguaje simple
 - Recomienda qué hacer según el nivel de riesgo
 - Todo el análisis ocurre localmente — ningún texto sale de tu equipo
-
----
-
-## Capturas
-
-<p align="center">
-  <img src="screenshots/inicio.png" width="200"/>
-  <img src="screenshots/critico.png" width="200"/>
-  <img src="screenshots/analizado.png" width="200"/>
-  <img src="screenshots/limpio.png" width="200"/>
-</p>
 
 ---
 
