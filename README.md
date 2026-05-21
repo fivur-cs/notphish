@@ -285,4 +285,4 @@ MIT
 
 ---
 
-*fivur — estudiante de ingeniería informática y ciberseguridad*
+*Fabián Ubilla — estudiante de ingeniería informática y ciberseguridad*
