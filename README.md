@@ -18,9 +18,13 @@ con baja alfabetización digital.
 ## Capturas
 
 <p align="center">
-  <img src="screenshots/inicio.png" width="280"/>
-  <img src="screenshots/critico.png" width="280"/>
-  <img src="screenshots/limpio.png" width="280"/>
+  <img src="screenshots/inicio.png" width="320"/>
+</p>
+<p align="center">
+  <img src="screenshots/critico.png" width="320"/>
+</p>
+<p align="center">
+  <img src="screenshots/limpio.png" width="320"/>
 </p>
 
 ---
