@@ -1,5 +1,4 @@
 // NotPhish V2 — app.js
-// Generado automáticamente: rules.js + engine.js + ui.js
 // Funciona directamente en browser sin bundler.
 
 // ═══════════════════════════════════════
