@@ -78,13 +78,26 @@ especialmente para usuarios que no necesariamente conocen conceptos técnicos de
 
 # Cómo usarlo
 
+Primero clona el repositorio:
+
 ```bash
 git clone https://github.com/fabianubilla/notphish.git
-
 cd notphish
+```
 
+Luego instala las dependencias y levanta el servidor.
+
+## En macOS
+
+```bash
+pip3 install scikit-learn joblib flask
+python3 server.py
+```
+
+## En Linux
+
+```bash
 pip install scikit-learn joblib flask
-
 python server.py
 ```
 
@@ -92,6 +105,9 @@ Luego abre `index.html` en el navegador.
 
 También puedes abrir `index.html` directamente sin Python,
 pero en ese caso solo funcionará la capa de reglas en JavaScript.
+
+> En macOS, los comandos `pip` y `python` pueden no estar disponibles por defecto.
+> Por eso se usan `pip3` y `python3`.
 
 ---
 
