@@ -171,13 +171,15 @@ Estas limitaciones no hacen que el proyecto pierda valor — ayudan a entender p
 
 ## Cómo leer el código si eres estudiante
 
-Un orden que ayuda a no perderse:
+1. **`config.json`** — empieza aquí. Son solo números con nombres descriptivos como `mlBoostMax` o `hardFloorOtp`. Antes de seguir leyendo el código, intenta deducir qué controla cada uno solo por el nombre.
 
-1. **`config.json`** — solo números, pero muestran qué valores controlan las decisiones del sistema. Buen punto de entrada.
-2. **`app.js`** — el motor de reglas. Similar al scanner pero con jerarquía y pesos.
-3. **`hybrid.js`** — la lógica híbrida. Conviene leer `computeEvidenceGate()` primero.
-4. **`server.py`** — corto. Carga el modelo y responde peticiones desde la interfaz.
-5. **`index.html`** — la interfaz. El JS de presentación está al final, separado de la detección.
+2. **`app.js`** — busca la sección marcada como `SECCIÓN 1`. Ahí están las señales individuales, cada una con su peso y su tipo (débil o dura). Es lo más parecido al scanner pero con más estructura. La `SECCIÓN 2` muestra cómo el sistema cruza señales para detectar patrones combinados.
+
+3. **`hybrid.js`** — lee solo dos funciones: `computeEvidenceGate()` primero, que decide en qué modo opera el sistema, y después `computeFinalScore()`, que combina el resultado de las reglas con el del modelo ML.
+
+4. **`server.py`** — es corto. Lee cómo carga el modelo con `joblib` y cómo responde las peticiones del frontend. No necesitas entender todo Flask para seguirlo.
+
+5. **`index.html`** — el JS de presentación está al final del archivo. Busca la función que recibe el resultado del análisis y decide qué mostrar — ahí se conecta todo lo anterior con lo que ve el usuario.
 
 ---
 
