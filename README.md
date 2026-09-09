@@ -2,9 +2,6 @@
   <img src="assets/banner.png" alt="NotPhish" width="100%">
 </p>
 
-**Live Demo:** https://fabianubilla.github.io/notphish/ *(JavaScript rule-based layer only — no Python/ML backend)*
-# NotPhish
-
 Educational cybersecurity project focused on understanding phishing detection through rule-based analysis and machine learning.
 
 > **Note:** The application interface and examples remain in Spanish, as the project was originally developed for educational purposes using Spanish-language phishing scenarios.
